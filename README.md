@@ -10,7 +10,7 @@
 **Airflow**, **Docker**, **GCP Cloud Storage**, **Python**, and **Terraform**
 
 ## Credit to Data Source
-NewsAPI: https://newsapi.org __
+NewsAPI: https://newsapi.org <br />
 YFinance: https://pypi.org/project/yfinance/
 
 
