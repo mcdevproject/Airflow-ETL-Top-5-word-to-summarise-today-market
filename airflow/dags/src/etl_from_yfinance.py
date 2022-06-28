@@ -89,12 +89,3 @@ class StockSpecificETL:
         self.get_ticker_recommendations()
         self.transform_ticker_recommendations()
         return self.df_ticker_recommendations
-
-
-#news = StockSpecificETL(ticker_list).run_news()
-#news.to_csv(f"data-collection-{today_date}/stock_specific_headlines_{time_created}.csv", index=False)
-#logging.info(f"stock_specific_headlines_{time_created}.csv is successfully generated.")
-
-#recommendations = StockSpecificETL(ticker_list).run_recommendations()
-#recommendations.to_csv(f"data-collection-{today_date}/stock_recommendations_{time_created}.csv", index=False)
-#logging.info(f"stock_recommendations_{time_created}.csv is successfully generated.")

@@ -49,8 +49,3 @@ class NewsETL(BaseETL):
         self.extract_from_api_endpoint(self.news_api)
         self.transform_news_headlines()
         return self.df_headlines
-
-
-#news = NewsETL().run()
-# news.to_csv(f"data-collection-{today_date}/newsapi_headlines_{time_created}.csv", index=False)
-# logging.info(f"newsapi_headlines_{time_created}.csv is successfully generated.")
