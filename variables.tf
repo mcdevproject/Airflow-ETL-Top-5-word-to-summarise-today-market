@@ -1,5 +1,5 @@
 locals {
-  data_lake_bucket = "dtc_data_lake"
+  data_lake_bucket = "data_lake"
 }
 
 variable "project" {
@@ -8,7 +8,7 @@ variable "project" {
 }
 
 variable "region" {
-  description = "Region for GCP resources. Choose as per your location: https://cloud.google.com/about/locations"
+  description = "Region for GCP resources. Choose as per your location: https://cloud.google.com/about/locations. Better to match with VM if you have."
   default     = "us-central1"
   type        = string
 }
