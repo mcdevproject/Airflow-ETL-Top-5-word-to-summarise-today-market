@@ -4,6 +4,8 @@
 In this project, we will set up a simple ETL pipeline using Airflow to collect news headline data from various sources. Airflow, as an orchestrator, will run the defined DAG (Directed Acyclic Graph - basically a workflow diagram) every Monday to Friday during the US market opening. After the every-hour extraction and transformation, we could further process the collected data and find out the top 5 words of the day, or of the week and month.
 
 ## High-level Diagram
+![alt text](https://i.imgur.com/P4HiTPF.jpg)
+
 
 ## Data Collection
 Currently, there are two news sources (and more will be added, hopefully...):
