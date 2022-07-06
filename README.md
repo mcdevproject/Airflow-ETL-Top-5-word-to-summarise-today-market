@@ -13,7 +13,7 @@ Currently, there are two news sources (and more will be added, hopefully...):
 2. **yFinance - DataFrame structure**: contains headline data with author, news title, news contents and url.
 
 ## Technology
-**Airflow**, **Docker**, **GCP Cloud Storage (GCS)**, **Python** and **Terraform**
+**Airflow**, **Docker**, **GCP BigQuery & Cloud Storage (GCS)**, **Python**, **SQL**, and **Terraform**
 
 ## Future Development 
 1. Dashboard to visualize news data
